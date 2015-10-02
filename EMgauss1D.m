@@ -1,10 +1,14 @@
 function [mu, sigma, P] = EMgauss1D(x, indices, PLOT)
-% function EMgauss1D(x, indices)
+% function [mu, sigma, P] = EMgauss1D(x, indices, PLOT)
 % Make the EM-GMM fitting in one dimension
 % INPUTS: 
 % - x is the data (1 x N)
 % - indices are guesses for the kernel indices --> length(indices) = number of kernels
 % - If PLOT==1 --> the estimation procedure is plotted along the iterations
+% OUTPUTS:
+% - mu is the vector of the kernel's mean values
+% - sigma is the kernels' standard deviations
+% - P is the kernel's prior probabilities
 
 x = x(:);
 mu = x(indices)';
