@@ -14,3 +14,6 @@ The main file is *eogert.m* which calls *EMgauss1D.m*. In the current code, the 
 and the signals are read "realtime" from the loaded files. Modify the corresponding code to read the signals over some actual stream (such as socket).
 
 There is also an offline version available, named *eogert_offline*. You must input EOG signals to it. The output is saved into a file. Type "help eogert_offline" for further details.
+
+The method is described in
+Toivanen, M., Pettersson, K., Lukander, K. (2015). A probabilistic real-time algorithm for detecting blinks, saccades, and fixations from EOG data. Journal of Eye Movement Research, 8(2):1,1-14.
