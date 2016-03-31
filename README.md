@@ -15,5 +15,5 @@ and the signals are read "realtime" from the loaded files. Modify the correspond
 
 There is also an offline version available, named *eogert_offline*. You must input EOG signals to it. The output is saved into a file. Type "help eogert_offline" for further details.
 
-The method is described in \s\s
+The method is described in\s\s
 Toivanen, M., Pettersson, K., Lukander, K. (2015). A probabilistic real-time algorithm for detecting blinks, saccades, and fixations from EOG data. Journal of Eye Movement Research, 8(2):1,1-14.
